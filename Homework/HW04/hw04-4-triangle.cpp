@@ -19,14 +19,14 @@ int main() {
     float height, base, area;
 
     // รับค่าส่วนสูงและฐานจากผู้ใช้
-    printf("Enter H & W:");
+    printf("Enter H & W:\n");
     scanf("%f %f", &height, &base);
 
     // คำนวณหาพื้นที่สามเหลี่ยม
     area = (height * base) / 2.0;
 
     // แสดงผลลัพธ์
-    printf("Triangle Area: %.1f\n", area);
+    printf("Triagle Area: %.1f\n", area);
 
     return 0;
 }
