@@ -19,7 +19,7 @@ int main() {
     float height, base, area;
 
     // รับค่าส่วนสูงและฐานจากผู้ใช้
-    printf("Enter H & W:\n");
+    printf("Enter H & W:");
     scanf("%f %f", &height, &base);
 
     // คำนวณหาพื้นที่สามเหลี่ยม
